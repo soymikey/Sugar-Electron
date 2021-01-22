@@ -3,7 +3,8 @@ const { app, store } = require('electron');
 const appName = 'electron-core';
 const defaultState = {
    webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true,
+      enableRemoteModule: true,
    }
 };
 app.on('ready', function () {

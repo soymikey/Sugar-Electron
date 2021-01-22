@@ -24,7 +24,8 @@ class Service extends Events {
                 fullscreen: false,
                 skipTaskbar: false,
                 webPreferences: {
-                    nodeIntegration: true
+                    nodeIntegration: true,
+                    enableRemoteModule: true,
                  }
             });
          

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "D:\\work\\easiclass-pc-new\\output\\EasiClass.exe test"
+    "start": "chcp 65001 && electron test"
   },
   "author": "Tomey",
   "license": "ISC",
