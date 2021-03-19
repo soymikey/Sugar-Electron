@@ -26,6 +26,7 @@ class Service extends Events {
                 webPreferences: {
                     nodeIntegration: true,
                     enableRemoteModule: true,
+                    contextIsolation: false
                  }
             });
          

@@ -5,6 +5,7 @@ const defaultState = {
    webPreferences: {
       nodeIntegration: true,
       enableRemoteModule: true,
+      contextIsolation: false
    }
 };
 app.on('ready', function () {
